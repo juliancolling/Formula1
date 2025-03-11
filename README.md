@@ -1,5 +1,5 @@
 
-# Project XYZ
+# Formula 1 Data Analysis (1999-2024): Insights from 25 Seasons of Racing
 
 **Project XYZ** is a comprehensive data analysis tool designed to streamline data exploration, analysis, and visualisation. The tool supports multiple data formats and provides an intuitive interface for both novice and expert data scientists.
 
