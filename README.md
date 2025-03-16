@@ -20,16 +20,22 @@ The Formula 1 dataset provides historical race data, covering essential aspects 
 - **Driver success rates** – *Who are the most dominant drivers based on points accumulated?* 
 - **Constructor dominance** – *Which teams have led the championship standings in different F1 eras?*    
 - **Circuit influence on performance** – *Which tracks have been historically significant in determining championship outcomes?* 
+
 This dataset allows for deep exploration of Formula 1’s evolution, enabling insights into competition trends, driver consistency, and team performance across different decades. 
 
 ## Hypothesis & Business Goals 
+### **Hypothesis:**  
+*“Certain circuits play a major role in determining race outcomes, and constructor dominance shifts over time. By analyzing performance trends, we can identify key factors influencing Formula 1 championships.”* 
+### **Business Goals:** 
+1. **Determine the most influential circuits** in race outcomes and championship results.  
+2. **Analyse driver performance trends** over 25 years, identifying the most dominant competitors.  
+3. **Track constructor trends** to understand how teams like Ferrari, Mercedes, and Red Bull evolved over time. 
+4. **Provide interactive insights through a structured Tableau dashboard**.  
+5. **Plan future development**, including predictive modeling and live data integration.  
 
 
 
 
-
-## Hypothesis and how to validate?
-* List here your project hypothesis(es) and how you envision validating it (them) 
 
 ## Project Plan
 * Outline the high-level steps taken for the analysis.
