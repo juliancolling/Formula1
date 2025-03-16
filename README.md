@@ -16,16 +16,16 @@ The Formula 1 dataset provides historical race data, covering essential aspects 
 - **Constructor Data:** Team performance trends over the years.
 - **Circuits:** Locations, track names, and number of hosted races. 
 ### **Ideas for Analysis:** 
-- **Trends in race frequency** – 'How has the number of races per season evolved over time?'  
-- **Driver success rates** – 'Who are the most dominant drivers based on points accumulated?' 
-- **Constructor dominance** – 'Which teams have led the championship standings in different F1 eras?'  
-- **Circuit influence on performance** – 'Which tracks have been historically significant in determining championship outcomes?' 
+- **Trends in race frequency** – *How has the number of races per season evolved over time?*   
+- **Driver success rates** – *Who are the most dominant drivers based on points accumulated?* 
+- **Constructor dominance** – *Which teams have led the championship standings in different F1 eras?*    
+- **Circuit influence on performance** – *Which tracks have been historically significant in determining championship outcomes?* 
 This dataset allows for deep exploration of Formula 1’s evolution, enabling insights into competition trends, driver consistency, and team performance across different decades. 
 
+## Hypothesis & Business Goals 
 
 
-## Business Requirements
-* Describe your business requirements
+
 
 
 ## Hypothesis and how to validate?
