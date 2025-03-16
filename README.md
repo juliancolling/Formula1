@@ -1,12 +1,14 @@
 
-# Formula 1 Data Analysis (1999-2024): Insights from 25 Seasons of Racing
+# Formula 1 Data Analytics Project (1999-2024) : Insights from 25 Years of Racing
 
-**Project XYZ** is a comprehensive data analysis tool designed to streamline data exploration, analysis, and visualisation. The tool supports multiple data formats and provides an intuitive interface for both novice and expert data scientists.
+## Overview
 
-# ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
-
+This project is a**comprehensive analysis of Formula 1 race data from 1999 to 2024**,utilising **Python for data processing, exploratory data analysis (EDA), and Tableau for visualisation**. The goal is to investigate trends in **driver performance, constructor dominance, and circuit influence on race outcomes**.
+This project is managed using a structured approach with **GitHub Kanban boards and repositories** to track progress, version control, and project evolution.
 
 ## Dataset Content
+
+
 * Describe your dataset. Choose a dataset of reasonable size to avoid exceeding the repository's maximum size of 100Gb.
 
 
