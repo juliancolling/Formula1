@@ -1,15 +1,21 @@
 
-# Formula 1 Data Analytics Project (1999-2024) : Insights from 25 Years of Racing
+# Formula 1 Data Analytics Project from (1999-2024) : Insights from 25 Years of Racing
 
 ## Overview
 
 This project is a**comprehensive analysis of Formula 1 race data from 1999 to 2024**,utilising **Python for data processing, exploratory data analysis (EDA), and Tableau for visualisation**. The goal is to investigate trends in **driver performance, constructor dominance, and circuit influence on race outcomes**.
+
 This project is managed using a structured approach with **GitHub Kanban boards and repositories** to track progress, version control, and project evolution.
 
 ## Dataset Content
 
+The Formula 1 dataset provides historical race data, covering essential aspects of the sport, including:
 
-* Describe your dataset. Choose a dataset of reasonable size to avoid exceeding the repository's maximum size of 100Gb.
+- **Race Results:** Positions, points, and fastest lap times.
+- **Driver Information:** Names, nationalities, and career statistics.
+- **Constructor Data:** Team performance trends over the years.
+- **Circuits:** Locations, track names, and number of hosted races.
+
 
 
 ## Business Requirements
