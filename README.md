@@ -35,12 +35,27 @@ This dataset allows for deep exploration of Formula 1’s evolution, enabling in
 
 ## Project Plan  
 ### **High-Level Steps Taken for the Analysis**  
+The analysis followed a structured process:  
+
+1. **Data Acquisition** – Obtained publicly available Formula 1 race data.  
+2. **Data Cleaning & Processing** – Handled missing values, normalied numerical data and formatted dates.  
+3. **Exploratory Data Analysis (EDA)** – Used various visualisation techniques to extract trends in race results, driver performance and constructor dominance.  
+4. **Dashboard Development** – Created an interactive Tableau dashboard to provide insights.  
+5. **Documentation & Reporting** – Documented findings, key insights and future development plans. 
+### **Data Management Approach** 
+
+- **Collection:** Gathered structured datasets containing race, driver, constructor and circuit data. 
+- **Processing:** Cleaned and formatted data using **Python (Pandas, NumPy)** to ensure accuracy and consistency.  
+- **Analysis:** Applied statistical methods and visualisation techniques to uncover trends.  
+- **Interpretation:** Key findings were summarised and visualised in Tableau to provide an interactive experience. 
+### **Research Methodologies Used**
+
+- **Descriptive Analysis:** To explore historical trends in F1 race results. 
+- **Comparative Analysis:** To evaluate team and driver performance across different time periods.  
+- **Geospatial Analysis:** To map circuit locations and analyse global race distribution. 
+- **Visualisation-Driven Insights:** Used Tableau for intuitive and interactive storytelling, making data-driven insights accessible to both technical and non-technical users.  
 
 
-## Project Plan
-* Outline the high-level steps taken for the analysis.
-* How was the data managed throughout the collection, processing, analysis and interpretation steps?
-* Why did you choose the research methodologies you used?
 
 ## The rationale to map the business requirements to the Data Visualisations
 * List your business requirements and a rationale to map them to the Data Visualisations
