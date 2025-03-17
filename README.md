@@ -3,7 +3,7 @@
 
 ## Overview 
 
-This project is a**comprehensive analysis of Formula 1 race data from 1999 to 2024**, utilising **Python for data processing, exploratory data analysis (EDA) and Tableau for visualisation**. The goal is to investigate trends in **driver performance, constructor dominance and circuit influence on race outcomes**. 
+This project is a **comprehensive analysis of Formula 1 race data from 1999 to 2024**, utilising **Python for data processing, exploratory data analysis (EDA) and Tableau for visualisation**. The goal is to investigate trends in **driver performance, constructor dominance and circuit influence on race outcomes**. 
 
 This project is managed using a structured approach with **GitHub Kanban boards and repositories** to track progress, version control and project evolution. 
 
@@ -25,7 +25,7 @@ This dataset allows for deep exploration of Formula 1’s evolution, enabling in
 
 ## Hypothesis & Business Goals  
 ### **Hypothesis:**  
-*“Certain circuits play a major role in determining race outcomes, and constructor dominance shifts over time. By analyzing performance trends, we can identify key factors influencing Formula 1 championships.”* 
+*“Certain circuits play a major role in determining race outcomes, and constructor dominance shifts over time. By analysing performance trends, we can identify key factors influencing Formula 1 championships.”* 
 ### **Business Goals:** 
 1. **Determine the most influential circuits** in race outcomes and championship results.  
 2. **Analyse driver performance trends** over 25 years, identifying the most dominant competitors.  
@@ -38,10 +38,10 @@ This dataset allows for deep exploration of Formula 1’s evolution, enabling in
 The analysis followed a structured process:  
 
 1. **Data Acquisition** – Obtained publicly available Formula 1 race data.  
-2. **Data Cleaning & Processing** – Handled missing values, normalied numerical data and formatted dates.  
+2. **Data Cleaning and Processing** – Handled missing values, normalied numerical data and formatted dates.  
 3. **Exploratory Data Analysis (EDA)** – Used various visualisation techniques to extract trends in race results, driver performance and constructor dominance.  
 4. **Dashboard Development** – Created an interactive Tableau dashboard to provide insights.  
-5. **Documentation & Reporting** – Documented findings, key insights and future development plans. 
+5. **Documentation and Reporting** – Documented findings, key insights and future development plans. 
 ### **Data Management Approach** 
 
 - **Collection:** Gathered structured datasets containing race, driver, constructor and circuit data. 
@@ -55,7 +55,7 @@ The analysis followed a structured process:
 - **Geospatial Analysis:** To map circuit locations and analyse global race distribution. 
 - **Visualisation-Driven Insights:** Used Tableau for intuitive and interactive storytelling, making data-driven insights accessible to both technical and non-technical users.  
 
-## Data Collection & Processing 
+## Data Collection and Processing 
 ### **ETL (Extract, Transform, Load) Approach:**  
 
 - **Extract:** Data collected from publicly available Formula 1 sources. 
@@ -97,7 +97,6 @@ EDA was conducted to extract meaningful insights from the dataset before visuali
 #### **Dashboard Layout:** 
 
 * **Left Side:** **Geographical Map of Circuits** 
-
 ![Map](<Screenshots/Screenshot Circuit map.png>)
 * **Top Right:** **Driver Performance Trends**  
 * **Bottom Right:** **Constructor Performance Over Time** 
@@ -110,69 +109,47 @@ Screenshots of the dashboard and the (EDA) plot graphs can be found in the **scr
 ### **Summary of Key Charts:** 
 
 1. **Plot Graphs:** A visual understanding of the merged data set. 
-
 2. **Driver Performance Chart:** Identifies the most successful drivers in terms of wins. 
-
 3. **Constructor Trends:** Examines which teams have dominated over time.  
-
 4. **Circuit Map:** Visualises the global impact of race locations. 
 
-## Further Development 
+## Future Development 
 
 1. **Machine Learning for Race Predictions** 
-
-* Implement predictive models to forecast **race outcomes based on driver performance, track history, and team strategies**. 
+Implement predictive models to forecast **race outcomes based on driver performance, track history, and team strategies**. 
 
 2. **Live Data Integration** 
-
-* Utilise **F1 APIs** to integrate real-time race data. 
+Utilise **F1 APIs** to integrate real-time race data. 
 
 ## Technology Framework 
 
 * **Main Data Analysis Libraries (Pandas, NumPy, Matplotlib, Seaborn)** Data processing and visualisation. 
+* **GitHub (Kanban & Repo)** Project management and version control.  
+* **Tableau** Interactive dashboard creation. 
+* **Draw.io** Used to design the wireframe for the dashboard. 
 
-* **GitHub (Kanban & Repo)** Project management and version control. 
-
-* **Tableau** Interactive dashboard creation.
-
-* **Draw.io** Used to design the wireframe for the dashboard.
-
-## Ethical considerations
-* Were there any data privacy, bias or fairness issues with the data?
-* How did you overcome any legal or societal issues?
+## Ethical considerations 
+* **Data Privacy:** No confidential data used; all data is publicly sourced. 
+* **Fairness & Transparency:** Results are **unbiased and reproducible**. 
+* **Compliance:** Ensures **adherence to open data governance best practices**.  
 
 
+## Project Development Roadmap 
+* **Version Control:** Maintained using **GitHub commits and project board**. 
+* **Challenges Faced:** Handling large datasets, ensuring Tableau responsiveness. 
+* **Next Steps:** Expanding **ML models for predictions** and integrating **real-time race updates**. 
 
-## Development Roadmap
-* What challenges did you face, and what strategies were used to overcome these challenges?
-* What new skills or tools do you plan to learn next based on your project experience? 
+## Deployment & Accessibility
 
-## Deployment
+* **Tableau Dashboard:** [https://public.tableau.com/app/profile/julian.colling/viz/F1_25YearsofRacing/F1_25YearsofRacing]
+* **Jupyter Notebook:** [[Notebook](jupyter_notebooks/F1_Analysis.ipynb)]
+* **GitHub Repository:** [Formula1 Project](https://github.com/juliancolling/Formula1) 
+Install required dependencies: `pip install -r requirements.txt`
+* **GitHub Project Board:** [https://github.com/users/juliancolling/projects/4]
 
+### Credits & Acknowledgments
 
+* **Data Sources:** Kaggle F1 dataset, [https://www.kaggle.com/datasets/rohanrao/formula-1-world-championship-1950-2020?select=constructors.csv]
+* **Tools Used:** Python, Tableau, GitHub, Draw.io 
+* **Project Contributors:** Special thanks to **mentors at Code Institute, peers, and Paul Golder** for feedback and insights.
 
-
-## Main Data Analysis Libraries
-* Here you should list the libraries you used in the project and provide an example(s) of how you used these libraries.
-
-
-## Credits 
-
-* In this section, you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
-* You can break the credits section up into Content and Media, depending on what you have included in your project. 
-
-### Content 
-
-- The text for the Home page was taken from Wikipedia Article A
-- Instructions on how to implement form validation on the Sign-Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
-
-### Media
-
-- The photos used on the home and sign-up page are from This Open-Source site
-- The images used for the gallery page were taken from this other open-source site
-
-
-
-## Acknowledgements (optional)
-* Thank the people who provided support through this project.
