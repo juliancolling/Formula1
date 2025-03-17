@@ -73,15 +73,15 @@ EDA was conducted to extract meaningful insights from the dataset before visuali
 
 2. **Top 10 Most Successful Drivers** 
 
-*A bar plot was used to calculate the total points accumulated by drivers over time, establishing the most successful drivers. This visualisation provides insights into driver consistency, performance longevity and how various eras of racing have influenced point accumulation. By analysing total points rather than just wins, we gain a broader perspective on which drivers have demonstrated sustained excellence across multiple seasons. 
+* A bar plot was used to calculate the total points accumulated by drivers over time, establishing the most successful drivers. This visualisation provides insights into driver consistency, performance longevity and how various eras of racing have influenced point accumulation. By analysing total points rather than just wins, we gain a broader perspective on which drivers have demonstrated sustained excellence across multiple seasons. 
 
 3. **Constructor Performance Over Time** 
 
-*A line plot was used to analyse constructor dominance over time by tracking the number of race wins for each team across different seasons. This visualisation helps in understanding how certain teams, such as Ferrari, Mercedes, and Red Bull have maintained periods of success, while others have fluctuated in performance. The line plot effectively showcases championship trends, revealing patterns of dominance, competitive shifts and the impact of rule changes on team success. 
+* A line plot was used to analyse constructor dominance over time by tracking the number of race wins for each team across different seasons. This visualisation helps in understanding how certain teams, such as Ferrari, Mercedes, and Red Bull have maintained periods of success, while others have fluctuated in performance. The line plot effectively showcases championship trends, revealing patterns of dominance, competitive shifts and the impact of rule changes on team success. 
 
 4. **Most Popular Circuits by Number of Races** 
 
-*A pie plot was initially used to visualise the proportion of races hosted by each circuit, providing a quick comparison of circuit popularity. However, to better analyse trends, a bar plot was later utilised to show the exact number of races hosted by each circuit over time. This visualisation highlights which tracks have consistently been part of the F1 calendar and how circuit usage has evolved, offering insights into the impact of historical and modern venues on race outcomes. 
+* A pie plot was initially used to visualise the proportion of races hosted by each circuit, providing a quick comparison of circuit popularity. However, to better analyse trends, a bar plot was later utilised to show the exact number of races hosted by each circuit over time. This visualisation highlights which tracks have consistently been part of the F1 calendar and how circuit usage has evolved, offering insights into the impact of historical and modern venues on race outcomes. 
 
 ### **Key Findings:**  
 
@@ -97,64 +97,59 @@ EDA was conducted to extract meaningful insights from the dataset before visuali
 #### **Dashboard Layout:** 
 
 * **Left Side:** **Geographical Map of Circuits** 
-* **Top Right:** **Driver Performance Trends** 
-* **Bottom Right:** **Constructor Performance Over Time**
+
+![Map](<Screenshots/Screenshot Circuit map.png>)
+* **Top Right:** **Driver Performance Trends**  
+* **Bottom Right:** **Constructor Performance Over Time** 
 * **Interactive Filters:** Year, Circuit, Driver and Constructor
 
-#### **Screenshots:** 
+## Screenshots 
 
-Screenshots of the dashboard can be found in the **screenshots folder** of the repository
-![alt text](<Screenshots/Screenshot Circuit map.png>)
+Screenshots of the dashboard and the (EDA) plot graphs can be found in the **screenshots folder** of the repository 
 
+### **Summary of Key Charts:** 
 
+1. **Plot Graphs:** A visual understanding of the merged data set. 
 
+2. **Driver Performance Chart:** Identifies the most successful drivers in terms of wins. 
 
+3. **Constructor Trends:** Examines which teams have dominated over time.  
 
+4. **Circuit Map:** Visualises the global impact of race locations. 
 
+## Further Development 
 
+1. **Machine Learning for Race Predictions** 
 
+* Implement predictive models to forecast **race outcomes based on driver performance, track history, and team strategies**. 
 
-## The rationale to map the business requirements to the Data Visualisations
-* List your business requirements and a rationale to map them to the Data Visualisations
+2. **Live Data Integration** 
 
-## Analysis techniques used
-* List the data analysis methods used and explain limitations or alternative approaches.
-* How did you structure the data analysis techniques. Justify your response.
-* Did the data limit you, and did you use an alternative approach to meet these challenges?
-* How did you use generative AI tools to help with ideation, design thinking and code optimisation?
+* Utilise **F1 APIs** to integrate real-time race data. 
+
+## Technology Framework 
+
+* **Main Data Analysis Libraries (Pandas, NumPy, Matplotlib, Seaborn)** Data processing and visualisation. 
+
+* **GitHub (Kanban & Repo)** Project management and version control. 
+
+* **Tableau** Interactive dashboard creation.
+
+* **Draw.io** Used to design the wireframe for the dashboard.
 
 ## Ethical considerations
 * Were there any data privacy, bias or fairness issues with the data?
 * How did you overcome any legal or societal issues?
 
-## Dashboard Design
-* List all dashboard pages and their content, either blocks of information or widgets, like buttons, checkboxes, images, or any other item that your dashboard library supports.
-* Later, during the project development, you may revisit your dashboard plan to update a given feature (for example, at the beginning of the project you were confident you would use a given plot to display an insight but subsequently you used another plot type).
-* How were data insights communicated to technical and non-technical audiences?
-* Explain how the dashboard was designed to communicate complex data insights to different audiences. 
 
-## Unfixed Bugs
-* Please mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a significant variable to consider, paucity of time and difficulty understanding implementation are not valid reasons to leave bugs unfixed.
-* Did you recognise gaps in your knowledge, and how did you address them?
-* If applicable, include evidence of feedback received (from peers or instructors) and how it improved your approach or understanding.
 
 ## Development Roadmap
 * What challenges did you face, and what strategies were used to overcome these challenges?
 * What new skills or tools do you plan to learn next based on your project experience? 
 
 ## Deployment
-### Heroku
 
-* The App live link is: https://YOUR_APP_NAME.herokuapp.com/ 
-* Set the runtime.txt Python version to a [Heroku-20](https://devcenter.heroku.com/articles/python-support#supported-runtimes) stack currently supported version.
-* The project was deployed to Heroku using the following steps.
 
-1. Log in to Heroku and create an App
-2. From the Deploy tab, select GitHub as the deployment method.
-3. Select your repository name and click Search. Once it is found, click Connect.
-4. Select the branch you want to deploy, then click Deploy Branch.
-5. The deployment process should happen smoothly if all deployment files are fully functional. Click now the button Open App on the top of the page to access your App.
-6. If the slug size is too large then add large files not required for the app to the .slugignore file.
 
 
 ## Main Data Analysis Libraries
