@@ -11,10 +11,10 @@ This project is managed using a structured approach with **GitHub Kanban boards 
 
 The Formula 1 dataset provides historical race data, covering essential aspects of the sport, including: 
 
-- **Race Results:** Positions, points, and fastest lap times. 
-- **Driver Information:** Names, nationalities, and career statistics.  
+- **Race Results:** Positions, points and fastest lap times. 
+- **Driver Information:** Names, nationalities and career statistics.  
 - **Constructor Data:** Team performance trends over the years.
-- **Circuits:** Locations, track names, and number of hosted races. 
+- **Circuits:** Locations, track names and number of hosted races. 
 ### **Ideas for Analysis:** 
 - **Trends in race frequency** – *How has the number of races per season evolved over time?*   
 - **Driver success rates** – *Who are the most dominant drivers based on points accumulated?* 
@@ -23,7 +23,7 @@ The Formula 1 dataset provides historical race data, covering essential aspects 
 
 This dataset allows for deep exploration of Formula 1’s evolution, enabling insights into competition trends, driver consistency, and team performance across different decades. 
 
-## Hypothesis & Business Goals 
+## Hypothesis & Business Goals  
 ### **Hypothesis:**  
 *“Certain circuits play a major role in determining race outcomes, and constructor dominance shifts over time. By analyzing performance trends, we can identify key factors influencing Formula 1 championships.”* 
 ### **Business Goals:** 
@@ -33,8 +33,8 @@ This dataset allows for deep exploration of Formula 1’s evolution, enabling in
 4. **Provide interactive insights through a structured Tableau dashboard**.  
 5. **Plan future development**, including predictive modeling and live data integration.  
 
-
-
+## Project Plan  
+### **High-Level Steps Taken for the Analysis**  
 
 
 ## Project Plan
