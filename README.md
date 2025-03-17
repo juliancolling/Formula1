@@ -29,7 +29,7 @@ This dataset allows for deep exploration of Formula 1’s evolution, enabling in
 ### **Business Goals:** 
 1. **Determine the most influential circuits** in race outcomes and championship results.  
 2. **Analyse driver performance trends** over 25 years, identifying the most dominant competitors.  
-3. **Track constructor trends** to understand how teams like Ferrari, Mercedes, and Red Bull evolved over time. 
+3. **Track constructor trends** to understand how teams like Ferrari, Mercedes and Red Bull evolved over time. 
 4. **Provide interactive insights through a structured Tableau dashboard**.  
 5. **Plan future development**, including predictive modeling and live data integration.  
 
@@ -54,6 +54,20 @@ The analysis followed a structured process:
 - **Comparative Analysis:** To evaluate team and driver performance across different time periods.  
 - **Geospatial Analysis:** To map circuit locations and analyse global race distribution. 
 - **Visualisation-Driven Insights:** Used Tableau for intuitive and interactive storytelling, making data-driven insights accessible to both technical and non-technical users.  
+
+## Data Collection & Processing 
+### **ETL (Extract, Transform, Load) Approach:**  
+
+- **Extract:** Data collected from publicly available Formula 1 sources. 
+- **Transform:** Handle missing values, normalise numerical data, and format date fields. 
+- **Load:** Store structured data for **Jupyter Notebook analysis & Tableau visualisation**.  
+
+## Exploratory Data Analysis (EDA) 
+ 
+
+
+
+
 
 
 
