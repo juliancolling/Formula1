@@ -62,8 +62,13 @@ The analysis followed a structured process:
 - **Transform:** Handle missing values, normalise numerical data, and format date fields. 
 - **Load:** Store structured data for **Jupyter Notebook analysis & Tableau visualisation**.  
 
-## Exploratory Data Analysis (EDA) 
+
+## Exploratory Data Analysis (EDA)  
  
+EDA was conducted to extract meaningful insights from the dataset before visualisation and dashboard creation. The following analyses were performed:
+
+1. **Number of Races Per Year**
+   - A bar plot was used to calculate the number of races held each year over time. This visualisation helps illustrate the expansion of the Formula 1 calendar and how the sport has evolved, reflecting changes in scheduling, the addition of new circuits, and shifts in race distribution across different seasons. By analysing this trend, we can better understand how the increasing number of races has impacted teams, drivers and the overall competitive landscape of F1.
 
 
 
