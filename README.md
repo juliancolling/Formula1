@@ -73,22 +73,40 @@ EDA was conducted to extract meaningful insights from the dataset before visuali
 
 2. **Top 10 Most Successful Drivers** 
 
- A bar plot was used to calculate the total points accumulated by drivers over time, establishing the most successful drivers. This visualisation provides insights into driver consistency, performance longevity and how various eras of racing have influenced point accumulation. By analysing total points rather than just wins, we gain a broader perspective on which drivers have demonstrated sustained excellence across multiple seasons. 
+*A bar plot was used to calculate the total points accumulated by drivers over time, establishing the most successful drivers. This visualisation provides insights into driver consistency, performance longevity and how various eras of racing have influenced point accumulation. By analysing total points rather than just wins, we gain a broader perspective on which drivers have demonstrated sustained excellence across multiple seasons. 
 
 3. **Constructor Performance Over Time** 
 
- A line plot was used to analyse constructor dominance over time by tracking the number of race wins for each team across different seasons. This visualisation helps in understanding how certain teams, such as Ferrari, Mercedes, and Red Bull have maintained periods of success, while others have fluctuated in performance. The line plot effectively showcases championship trends, revealing patterns of dominance, competitive shifts and the impact of rule changes on team success. 
+*A line plot was used to analyse constructor dominance over time by tracking the number of race wins for each team across different seasons. This visualisation helps in understanding how certain teams, such as Ferrari, Mercedes, and Red Bull have maintained periods of success, while others have fluctuated in performance. The line plot effectively showcases championship trends, revealing patterns of dominance, competitive shifts and the impact of rule changes on team success. 
 
 4. **Most Popular Circuits by Number of Races** 
 
- A pie plot was initially used to visualise the proportion of races hosted by each circuit, providing a quick comparison of circuit popularity. However, to better analyse trends, a bar plot was later utilised to show the exact number of races hosted by each circuit over time. This visualisation highlights which tracks have consistently been part of the F1 calendar and how circuit usage has evolved, offering insights into the impact of historical and modern venues on race outcomes. 
+*A pie plot was initially used to visualise the proportion of races hosted by each circuit, providing a quick comparison of circuit popularity. However, to better analyse trends, a bar plot was later utilised to show the exact number of races hosted by each circuit over time. This visualisation highlights which tracks have consistently been part of the F1 calendar and how circuit usage has evolved, offering insights into the impact of historical and modern venues on race outcomes. 
 
 ### **Key Findings:**  
 
-**Race frequency has increased**, requiring better endurance from drivers and teams. 
-**Silverstone, Monza and Spa-Francorchamps are among the most frequently used circuits**.  
-**Mercedes, Ferrari and Red Bull have dominated constructor championships**. 
-**Driver consistency is key**, as multi-season champions often succeed at specific circuits. 
+* **Race frequency has increased**, requiring better endurance from drivers and teams. 
+* **Silverstone, Monza and Spa-Francorchamps are among the most frequently used circuits**.  
+* **Mercedes, Ferrari and Red Bull have dominated constructor championships**. 
+* **Driver consistency is key**, as multi-season champions often succeed at specific circuits. 
+
+## Dashboard & Visualisations 
+
+### **Tableau Dashboard Overview** 
+
+#### **Dashboard Layout:** 
+
+* **Left Side:** **Geographical Map of Circuits** 
+* **Top Right:** **Driver Performance Trends** 
+* **Bottom Right:** **Constructor Performance Over Time**
+* **Interactive Filters:** Year, Circuit, Driver and Constructor
+
+#### **Screenshots:** 
+
+Screenshots of the dashboard can be found in the **screenshots folder** of the repository
+![alt text](<Screenshots/Screenshot Circuit map.png>)
+
+
 
 
 
