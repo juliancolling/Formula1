@@ -69,7 +69,7 @@ EDA was conducted to extract meaningful insights from the dataset before visuali
 
 1. **Number of Races Per Year**
    - A bar plot was used to calculate the number of races held each year over time. This visualisation helps illustrate the expansion of the Formula 1 calendar and how the sport has evolved, reflecting changes in scheduling, the addition of new circuits, and shifts in race distribution across different seasons. By analysing this trend, we can better understand how the increasing number of races has impacted teams, drivers and the overall competitive landscape of F1.
-![Races per Year](Screenshots\Screenshot Number of Races per Year.png)
+#![Races per Year](Screenshots\Screenshot Number of Races per Year.png)
 
 
 
