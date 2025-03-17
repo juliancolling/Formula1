@@ -68,19 +68,19 @@ The analysis followed a structured process:
 EDA was conducted to extract meaningful insights from the dataset before visualisation and dashboard creation. The following analyses were performed:
 
 1. **Number of Races Per Year**
-
+![Years](<Screenshots/Screenshot Number of Races per Year.png>)
 * A bar plot was used to calculate the number of races held each year over time. This visualisation helps illustrate the expansion of the Formula 1 calendar and how the sport has evolved, reflecting changes in scheduling, the addition of new circuits and shifts in race distribution across different seasons. By analysing this trend, we can better understand how the increasing number of races has impacted teams, drivers and the overall competitive landscape of F1.  
 
 2. **Top 10 Most Successful Drivers** 
-
+![Driver](<Screenshots/Screenshot Driver Points Graph.png>)
 * A bar plot was used to calculate the total points accumulated by drivers over time, establishing the most successful drivers. This visualisation provides insights into driver consistency, performance longevity and how various eras of racing have influenced point accumulation. By analysing total points rather than just wins, we gain a broader perspective on which drivers have demonstrated sustained excellence across multiple seasons. 
 
 3. **Constructor Performance Over Time** 
-
+![Constructor plot](<Screenshots/Screenshot Constructor Trends Plot Graph.png>)
 * A line plot was used to analyse constructor dominance over time by tracking the number of race wins for each team across different seasons. This visualisation helps in understanding how certain teams, such as Ferrari, Mercedes, and Red Bull have maintained periods of success, while others have fluctuated in performance. The line plot effectively showcases championship trends, revealing patterns of dominance, competitive shifts and the impact of rule changes on team success. 
 
 4. **Most Popular Circuits by Number of Races** 
-
+![Circuits Number](<Screenshots/Screenshot Circuits by Number Graph.png>)
 * A pie plot was initially used to visualise the proportion of races hosted by each circuit, providing a quick comparison of circuit popularity. However, to better analyse trends, a bar plot was later utilised to show the exact number of races hosted by each circuit over time. This visualisation highlights which tracks have consistently been part of the F1 calendar and how circuit usage has evolved, offering insights into the impact of historical and modern venues on race outcomes. 
 
 ### **Key Findings:**  
@@ -93,13 +93,15 @@ EDA was conducted to extract meaningful insights from the dataset before visuali
 ## Dashboard & Visualisations 
 
 ### **Tableau Dashboard Overview** 
-
+![Dashboard Overview](<Screenshots/Screenshot Dashboard Overview.png>)
 #### **Dashboard Layout:** 
 
 * **Left Side:** **Geographical Map of Circuits** 
 ![Map](<Screenshots/Screenshot Circuit map.png>)
 * **Top Right:** **Driver Performance Trends**  
+![Driver  Points](<Screenshots/Screenshot Driver Total Points.png>)
 * **Bottom Right:** **Constructor Performance Over Time** 
+![Constructor Points](<Screenshots/Screenshot Constructors Total Points.png>)
 * **Interactive Filters:** Year, Circuit, Driver and Constructor
 
 ## Screenshots 
